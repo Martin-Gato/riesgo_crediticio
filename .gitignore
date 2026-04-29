@@ -1,5 +1,6 @@
 # --- Entornos Virtuales ---
 .venv/
+.riesgo_cred/
 env/
 venv/
 ENV/
