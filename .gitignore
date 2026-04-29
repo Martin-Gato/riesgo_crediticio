@@ -1,0 +1,57 @@
+# --- Entornos Virtuales ---
+.venv/
+env/
+venv/
+ENV/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Opcional: Ignorar los resultados de las celdas para evitar conflictos de git
+# .ipynb_checkpoints
+
+# --- Datos (CRÍTICO para Riesgos) ---
+# Ignora archivos de datos pesados o con información sensible (PII)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.sql
+*.sqlite
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+downloads/
+include/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Variables de Entorno (Credenciales de DB) ---
+.env
+.flaskenv
+*.secret
+credentials.json
+
+# --- Herramientas de Visualización y Logs ---
+.Tableau/
+*.log
+.DS_Store
